@@ -1,4 +1,4 @@
-package scimpc;
+package scrimpc;
 
 // File imports.
 import java.io.BufferedReader;

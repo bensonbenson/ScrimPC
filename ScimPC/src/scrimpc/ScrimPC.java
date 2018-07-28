@@ -1,9 +1,9 @@
-package scimpc;
+package scrimpc;
 
 import java.util.ArrayList;
 import java.util.TreeMap;
 
-public class ScimPC {
+public class ScrimPC {
 
     enum OP {
         ADD,
@@ -27,8 +27,19 @@ public class ScimPC {
     // Program counter.
     static int PC = 0;
     // Jump address register.
-    static int JR = 0;
-    
+    int JR = 0;
+
+    public double getAccumulator() {
+        return accumulator;
+    }
+
+    public int getPC() {
+        return PC;
+    }
+
+    public int getJR() {
+        return JR;
+    }
     
     public static void main(String[] args) {
         String filename = "Assembly Files/add_sub_sw.scrim";
