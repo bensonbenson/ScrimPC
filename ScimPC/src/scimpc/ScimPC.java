@@ -25,11 +25,21 @@ public class ScimPC {
     int PC = 0;
     // Jump address register.
     int JR = 0;
-    
+
+    public double getAccumulator() {
+        return accumulator;
+    }
+
+    public int getPC() {
+        return PC;
+    }
+
+    public int getJR() {
+        return JR;
+    }
     
     public static void main(String[] args) {
         // TODO code application logic here
-        //Test push
     }
     
 }
